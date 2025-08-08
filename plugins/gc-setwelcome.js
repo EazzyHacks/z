@@ -24,7 +24,7 @@ let handler = async (m, { conn, text, isRowner }) => {
 handler.help = ['setwelcome *<mensaje>*'];
 handler.tags = ['grupo'];
 handler.command = ['setwelcome', 'setwel'];
-handler.admin = true;
+handler.admin = false;
 handler.group = true;
 
 export default handler;
